@@ -3,4 +3,3 @@ Cypress.Commands.add('login', (_usuario, _senha) => {
   cy.get('#password').type(_senha)
 
 })  
-
